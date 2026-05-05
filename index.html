@@ -42,16 +42,12 @@
 
 <link rel="stylesheet" href="assets/theme.css">
 
-<!-- Intercom Finn Agent — launcher hidden until Hampden-scoped knowledge content is published.
-     Tagging stays live so visitors enter the Hampden Visitors segment in Intercom;
-     flip hide_default_launcher to false once Hampden articles are published and
-     audience access is assigned, so Fin only ever surfaces Hampden-scoped content. -->
+<!-- Intercom Finn Agent -->
 <script>
   window.intercomSettings = {
     app_id: 'w14tfjsk',
     property: 'hampden-business-park',
-    property_url: window.location.href,
-    hide_default_launcher: true
+    property_url: window.location.href
   };
   (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/w14tfjsk';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
 </script>
